@@ -1,0 +1,468 @@
+13	100Hot
+2	AltaVista
+63	AceSearch
+19	ANZWERS
+37	ComFind
+61	2Look4It
+11	DejaNews
+30	Dogpile
+62	Abacho.com
+4	Excite
+34	Excite - Netscape
+33	Go2net Metacrawler
+10	Overture
+9	HotBot
+3	InfoSeek
+38	InfoTiger
+20	Jump City
+21	Link Master
+7	LookSmart
+5	Lycos
+29	Mamma
+31	Metacrawler
+36	MSN
+22	National Directory
+14	Northern Light
+35	Snap
+23	Splat!
+24	Starting Point
+25	Surf Central
+32	The Globe Search
+26	The Net 1
+39	Thunderstone
+6	WebCrawler
+60	Searchalot
+1	Yahoo!
+16	ZenSearch
+40	Ilse
+41	Yahoo! Danmark
+42	Jubii
+43	AltaVista - Deutschland
+44	Lycos.de
+45	Excite Deutschland
+46	Fireball
+47	Web.de
+59	1001 Searches
+49	SavvySearch
+50	Blue Window
+51	Vindex
+52	Ask Jeeves
+53	AOL.com Search
+54	Dmoz
+55	Nomade
+56	Netscape Search
+57	Google
+58	DirectHit
+64	AdmCity
+65	Aeiwi
+66	Afterpage
+67	ah-ha
+68	All Americas Best
+69	All The Web
+70	Andromeda Search
+71	BeGuide.com
+72	BuyersIndex
+73	ByteSearch
+74	Canada.com
+75	CyberBritain.com
+76	HotLaunch.com
+77	Dazzo!
+78	Deoji
+79	Dictionary.com
+80	dog.com
+81	Euroseek
+82	Excite Japan
+83	Final Search
+84	FindLink
+85	FishHoo!
+86	Kanoodle.com
+87	FullWebinfo Directory & Search Engine
+89	Galaxy
+90	General Search
+91	GeoBoz Search
+92	Globe Crawler
+93	Go (Infoseek)
+94	GoButton
+96	GoEureka
+97	Goo (Jp.)
+98	Help-Site
+99	Highway61
+100	HotIndex
+101	Infohiway
+102	InfoMak
+103	Idea Web
+104	Internet Times
+105	InternetTrash
+106	IOport
+107	i-Stores
+108	Jayde
+109	JimWorld Open Directory
+110	KaZaZZ
+111	Link Center
+112	Linkcentre
+114	Linkopedia
+115	ListOfLists
+116	Lokace
+117	Locate
+118	Loquax Open Directory
+119	Magellan
+120	MarchSearch
+121	Matilda
+122	MaxBan
+123	McFind.com
+124	Metacrawler.de
+125	MetaDog.com
+126	myGO
+127	Net 1000.net
+128	Fansites.com
+129	NetBreach
+130	Net-Fetch.com Web Directory
+131	NetFinder USA
+132	NetGoat
+133	NetSearch
+134	Nexet Open Directory
+135	Official Search
+136	Oingo
+137	oneSeek.com
+138	onwashington.com
+139	Open Directory Project
+140	Orbit.net
+141	Pandia Plus
+142	Papua New Guinea Search
+143	Point2
+144	Power Search
+145	Premier Stores Directory
+146	Proyecto Celeste
+147	QuestFinder
+148	RageWorld.com
+149	Rex Search
+150	IT InfoArt Stars
+151	Scopie
+152	Scour
+153	Scrub the Web
+154	Search City
+155	MetaIQ.com
+156	InfoSpace
+157	Search King
+158	Search Viking
+159	Search.ch
+160	CNET Search.com
+161	SearchHound
+162	SearchIt
+163	Searchport
+164	ShoppingAide
+165	Simple Search
+166	SimplyPets.com
+167	SmartBeak.com
+168	SoQuick.com
+169	Stomp!
+170	StopAt
+171	Sun Brain
+172	Super Snooper
+173	Surf Gopher
+174	Surfer.ch
+175	idealist.com
+176	theBestMall
+177	theBigHub.com
+178	theinfodepot.com
+179	TheYellowPages
+180	ToggleBot!
+181	TooZen
+182	TopFile.com
+183	totalSEEK
+184	UK Max
+185	Up4U
+186	Verita
+187	Voyager
+188	Waypages
+189	Web Trawler
+190	Webpath
+191	WebSearch 2K
+192	Web-Search
+193	WebTop
+194	WhatsNu
+195	WhatUSeek
+196	Chubba
+197	Wizzler.com
+198	Worldlight
+199	Yeehaa
+200	Zinos
+201	WorldBazaar
+202	Web Wombat (Au.)
+203	Web Wombat
+204	TooCool
+205	SpiderBot
+206	Riot
+207	About.com
+208	Yahooligans!
+209	Lycos - Dutch
+210	Excite - Dutch
+211	Zoek
+212	Yahoo.de
+213	Lycos - UK
+214	Excite - Australia
+215	Excite.ch
+216	Excite - France
+217	InfoSeek
+218	InfoSeek.de
+219	Yupi
+220	NBCi
+221	Toile du Quebec
+222	Excite Canada
+223	MSN - Canada
+224	MSN - Canada (French)
+225	Google - Germany
+226	MSN - Germany
+227	AOL.DE
+228	Dino Online
+229	Google - Switzerland
+230	MSN - Australia
+231	Google - Netherlands
+232	Google - Austria
+233	Google - Belgium
+234	Abacho - Germany
+235	Google - Chile
+236	Virgilio
+237	Libero
+238	MSN - Italy
+239	Supereva
+240	Tiscali
+241	Yahoo.it
+242	Lycos - Italy
+243	Google - Italy
+244	AltaVista - Italy
+245	Godado
+246	Lycos - France
+247	MSN - France
+248	Yahoo.fr
+249	Google - France
+250	AOL.FR
+251	AltaVista - France
+252	MSN - Spain
+253	Yahoo.es
+254	Lycos - Spain
+255	Starmedia
+256	Ozu
+257	AltaVista - Spain
+258	MSN - Sweden
+259	Passagen
+260	Spray
+261	AltaVista - Sweden
+262	Yahoo.se
+263	MSN - Switzerland
+265	Search.ch
+266	AltaVista - Switzerland
+267	Suche.ch
+268	MSN - United Kingdom
+269	Yahoo.uk
+270	AOL.CO.UK
+271	Lycos - United Kingdom
+272	Google - United Kingdom
+273	AltaVista - United Kingdom
+274	Seznam.cz
+275	Yandex.ru
+276	Yahoo! - Japan
+277	Nifty
+278	Biglobe
+279	Google - Japan
+280	Infoseek - Japan
+281	MSN - Japan
+282	Excite - Japan
+283	FreshEye
+284	Google - Australia
+285	NineMSN
+286	Yahoo! - Australia & NZ
+287	Google - Canada
+288	Google - New Zealand
+289	Google - India
+290	Google - Brasil
+291	Google - Costa Rica
+292	Google - Greece
+293	Naver
+294	Daum
+295	Nate.com
+296	Empas
+297	DreamWiz
+298	Yahoo! - Korea
+299	MSN - Korea
+300	Wanadoo
+301	Tiscali
+302	Google - Espana
+303	Sensis.com.au
+304	InfoPage.com
+305	MyWay.com
+306	SmartPages.com
+307	Reference.com
+308	FleeceTheNet
+309	CurryGuide
+310	QkSearch
+311	Feynd
+452	zoeken.nl
+312	Quepasa
+313	Teoma
+314	WiseNut
+315	Fast
+316	iWon
+317	7search.com
+318	FindWhat
+319	Enhance
+320	RocketLinks.com
+321	icq
+322	Findit-Quick
+323	TrueSearch.com
+324	37.com
+325	Profusion
+326	ByteSearch!
+327	InfiniSearch
+328	globito!
+329	GoHip
+330	AussieSeek
+331	ixquick
+332	metaEureka
+333	MetaGopher
+334	Monster Crawler
+335	MultiMeta
+336	Supercrawler.com
+337	1st-Spot
+338	Abrexa UK
+339	Mirago
+340	UK Plus
+341	UK Searcher
+342	Limey Search
+343	ukindex
+344	AllSearchEngines
+345	Swift Guide
+346	Search.IRL.com
+347	AustroNaut
+348	Webbel
+349	Euregio
+350	Eniro
+351	Kolumbus
+352	Sonera Plaza
+353	WebStudio
+354	allZone
+355	Bellnet
+356	Columbus-Finder
+357	Flix.de
+358	Suchmaschine
+359	Heureka
+360	Libero-Ricerca
+361	LuXPoint
+362	Planet - Zoekpagina
+363	Startpagina
+364	Surfboard (Ixquick)
+365	Kvasir
+366	Galileu
+367	Clix
+368	Sol
+369	Terra
+370	Apali
+371	Jopinet
+372	Search Iberia
+373	Trovator
+374	HispaVista
+375	100.nu
+376	Tjohoo
+377	Dir.bg
+378	TipMoto
+379	Sherlock.cz
+380	WOW
+381	Wirtualna Polska
+382	NetSprint
+383	PolishWorld
+384	ROL.ro
+385	Search Centre
+386	Holms.ru
+387	Aport
+388	Data.ru
+389	SerbianCafe
+390	Beocity
+391	szm.sk
+392	Surf.sk
+393	Mat'Kurja
+394	WoYaa
+395	Ananzi
+396	EgyptSearch
+397	Tapuz
+398	Walla
+399	SouthAsia.net
+400	Ozsearch
+401	DialIndia
+402	Khoj
+403	SearchNZ
+404	NTsearch
+405	Yehey
+406	VietGate
+407	toutMontreal
+408	Alcanseek
+409	BUSCApique
+410	Wepa
+411	La Brujula
+412	Grippo
+413	Istmania
+414	TheBrazilBridge
+415	UOL Busca
+416	Exploora
+417	123.cl
+418	Huifa
+419	TodoCl
+420	Conexcol
+421	Voila
+422	Vinden
+423	Usseek
+424	Hotbot UK
+425	Google Ireland
+426	Google Luxembourg
+427	Google Romania
+428	Google Lithuania
+429	Google Denmark
+430	Google Slovakia
+431	Google Sweden
+432	Google Finland
+433	Google Portugal
+434	Google Poland
+435	Google Guernsey
+436	Google Russia
+437	Google Norway
+438	Google United Arab Emirates
+439	au.Anzwers
+440	Yahoo! Singapore
+441	Yahoo! Mexico
+442	Yahoo UK
+443	AltaVista Canada
+444	MSN UK
+445	MSN switzerland
+446	MSN Isreal
+447	MSN South Africa
+448	MSN Mexico
+449	MSN Netherlands
+450	MSN Belgium
+451	Google - Latvia
+453	ilse.nl
+454	find.wanadoo.nl
+455	zoeken.hetnet.nl
+456	track.nl
+457	eerstekeuze.nl
+458	lycos.nl
+459	nl.altavista
+460	baidu.com
+461	3721.com
+462	Yahoo.hk
+463	Yahoo.tw
+464	Yahoo! Chinese (US)
+465	Yahoo! Spanish (US)
+466	Yahoo.ar
+467	Yahoo.br
+468	Yahoo! Canada
+469	Yahoo.Canada (French)
+470	Yahoo.asia
+471	Yahoo! China
+472	Yahoo.inia
+473	Yahoo.indonesia
+474	Yahoo.malaysia
+475	Yahoo.philippines
+476	Yahoo.thailand
+477	Yahoo.at
+478	Yahoo.ct
+479	Yahoo.no
+480	Yahoo! Russian (US)

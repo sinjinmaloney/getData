@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "LoadingPatterns", "LoadingPatterns\LoadingPatterns.dtproj", "{58AB1BDD-BE37-437B-8609-AF8CEF9E226B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T-SQL", "T-SQL", "{D239CFF5-3358-410E-8505-EF6A5E514F5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58AB1BDD-BE37-437B-8609-AF8CEF9E226B}.Development|Default.ActiveCfg = Development
+		{58AB1BDD-BE37-437B-8609-AF8CEF9E226B}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

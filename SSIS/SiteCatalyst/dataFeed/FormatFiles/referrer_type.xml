@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<BCPFORMAT
+xmlns="http://schemas.microsoft.com/sqlserver/2004/bulkload/format"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RECORD>
+		<FIELD ID="1" xsi:type="CharTerm" TERMINATOR="\t" />
+		<FIELD ID="2" xsi:type="CharTerm" TERMINATOR="\n" MAX_LENGTH="500" />
+	</RECORD>
+	<ROW>
+		<COLUMN SOURCE="1" NAME="referrer_typeID" xsi:type="SQLINT" />
+		<COLUMN SOURCE="2" NAME="referrer_type" xsi:type="SQLVARYCHAR" />
+	</ROW>
+</BCPFORMAT>
