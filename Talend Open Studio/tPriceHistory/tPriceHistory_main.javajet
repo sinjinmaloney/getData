@@ -1,0 +1,56 @@
+<%@ jet 
+	imports="
+		org.talend.core.model.process.INode 
+		org.talend.core.model.process.ElementParameterParser 
+		org.talend.core.model.metadata.IMetadataTable 
+		org.talend.core.model.metadata.IMetadataColumn 
+		org.talend.core.model.process.IConnection
+		org.talend.core.model.process.IConnectionCategory
+		org.talend.designer.codegen.config.CodeGeneratorArgument
+		org.talend.core.model.metadata.types.JavaTypesManager
+		org.talend.core.model.metadata.types.JavaType
+	" 
+%>
+
+for (int i = 0; i < symbolCount; i++){
+	symbol = inStream.readUTF() + ",";
+	boolean status = (inStream.readByte() == 0);
+	if (!status){
+		//error for this symbol
+		dataResult.append("Error text = ");
+		dataResult.append(inStream.readUTF());
+		dataResult.append('\n');
+		writeToFile.write(dataResult.toString());
+	}else{
+		//good
+		writeToFile.write("symbol,close,high,low,open,volume,timestamp");
+		int barCount = inStream.readInt();
+		DecimalFormat decFormatter = new DecimalFormat();
+		TimeZone timeZone = TimeZone.getTimeZone("America/New_York");
+		DateFormat calFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		calFormatter.setTimeZone(timeZone);
+		Calendar calendar = new GregorianCalendar(timeZone);
+
+		for (int j = 0; j < barCount; j++){
+			writeToFile.newLine();
+			//close
+			close = decFormatter.format(inStream.readFloat()).toString() + ",";
+			//high
+			high = decFormatter.format(inStream.readFloat()).toString() + ",";
+			//low
+			low = decFormatter.format(inStream.readFloat()).toString() + ",";
+			//open
+			open = decFormatter.format(inStream.readFloat()).toString() + ",";
+			//volume
+			volume = inStream.readInt() + ",";
+			//time stamp
+			long mils = inStream.readLong();
+			calendar.setTimeInMillis(mils);
+			timeStamp = calFormatter.format(calendar.getTime()).toString();
+			writeToFile.write(symbol + close + high + low + open + volume + timeStamp);
+		}
+		byte[] terminator = new byte[2];
+		inStream.read(terminator);
+	}
+}
+	writeToFile.close();

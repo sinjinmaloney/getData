@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "getPriceHistoryData", "getPriceHistoryData\getPriceHistoryData.dtproj", "{D18E874A-B9BC-4CE2-BA85-D7D289B61015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D18E874A-B9BC-4CE2-BA85-D7D289B61015}.Development|Default.ActiveCfg = Development
+		{D18E874A-B9BC-4CE2-BA85-D7D289B61015}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,74 @@
+<%@ jet 
+	imports="
+		org.talend.core.model.process.INode 
+		org.talend.core.model.process.ElementParameterParser 
+		org.talend.core.model.metadata.IMetadataTable 
+		org.talend.core.model.metadata.IMetadataColumn 
+		org.talend.core.model.process.IConnection
+		org.talend.core.model.process.IConnectionCategory
+		org.talend.designer.codegen.config.CodeGeneratorArgument
+		org.talend.core.model.metadata.types.JavaTypesManager
+		org.talend.core.model.metadata.types.JavaType
+	" 
+%>
+<% 
+    CodeGeneratorArgument codeGenArgument = (CodeGeneratorArgument) argument;
+    INode node = (INode)codeGenArgument.getArgument();
+    String cid = node.getUniqueName();
+    String Source = ElementParameterParser.getValue(node, "__SOURCE__");
+    String RequestValue = ElementParameterParser.getValue(node, "__REQUESTVALUE__");
+    String IntervalType = ElementParameterParser.getValue(node, "__INTERVALTYPE__");
+    String IntervalDuration = ElementParameterParser.getValue(node, "__INTERVALDURATION__");
+    String OutputFileName = ElementParameterParser.getValue(node, "__OUTPUTFILENAME__");
+    String PeriodType = ElementParameterParser.getValue(node, "__PERIODTYPE__");
+    String PeriodValue = ElementParameterParser.getValue(node, "__PERIODVALUE__");
+    String StartDate = ElementParameterParser.getValue(node, "__STARTDATE__");
+    String EndDate = ElementParameterParser.getValue(node, "__ENDDATE__");
+    String Extended = ElementParameterParser.getValue(node, "__EXTENDED__");
+%>
+
+int nb_line_<%=cid %> = 0;
+
+String mySource = "<%=Source %>";
+String myRequestValue = "<%=RequestValue %>";
+String myIntervalType = "<%=IntervalType %>";
+String myIntervalDuration = "<%=IntervalDuration %>";
+String myFile = <%=OutputFileName %>;
+String myPeriodType = "<%=PeriodType %>";
+String myPeriodValue = "<%=PeriodValue %>";
+String myStartDate = "<%=StartDate %>";
+String myEndDate = "<%=EndDate %>";
+String myExtended = "<%=Extended %>";
+
+String myURL = "";
+
+if(!myPeriodType.isEmpty() && !myPeriodValue.isEmpty()){
+	if(!myExtended.isEmpty() && myExtended == "TRUE"){
+		myURL = "https://apis.tdameritrade.com/apps/100/PriceHistory?source=" + mySource + "&requestidentifiertype=SYMBOL&requestvalue=" + myRequestValue + "&intervaltype=" + myIntervalType + "&intervalduration=" + myIntervalDuration + "&periodtype=" + myPeriodType + "&period=" + myPeriodValue + "&extended=" + myExtended + "&startdate=" + myStartDate + "&enddate=" + myEndDate;
+	} else {
+		myURL = "https://apis.tdameritrade.com/apps/100/PriceHistory?source=" + mySource + "&requestidentifiertype=SYMBOL&requestvalue=" + myRequestValue + "&intervaltype=" + myIntervalType + "&intervalduration=" +  myIntervalDuration + "&periodtype=" + myPeriodType + "&period=" + myPeriodValue + "&startdate=" + myStartDate + "&enddate=" + myEndDate;
+	}
+} else {
+	myURL = "https://apis.tdameritrade.com/apps/100/PriceHistory?source=" + mySource + "&requestidentifiertype=SYMBOL&requestvalue=" + myRequestValue + "&intervaltype=" + myIntervalType + "&intervalduration=" + myIntervalDuration + "&startdate=" + myStartDate + "&enddate=" + myEndDate;
+}
+
+URL url = new URL(myURL);
+URLConnection connection = url.openConnection();
+InputStream in = connection.getInputStream();
+byte[] content = IOUtils.toByteArray(in);
+ByteArrayInputStream baInStream = new ByteArrayInputStream(content);
+DataInputStream inStream = new DataInputStream(baInStream);
+
+String symbol;
+String close;
+String high;
+String low;
+String open;
+String volume;
+String timeStamp;
+int symbolCount = inStream.readInt();
+StringBuffer dataResult = new StringBuffer();
+
+File outFile = new File(myFile);
+FileWriter outFileWriter = new FileWriter(outFile);
+BufferedWriter writeToFile = new BufferedWriter(outFileWriter);
