@@ -9,3 +9,6 @@ Current manifest:
     - R
     - Talend Open Studio
     - SSIS
+- SiteCatalyst
+  - Data feed
+    - SSIS
